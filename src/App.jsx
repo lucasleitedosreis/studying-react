@@ -1,9 +1,9 @@
 import React from "react";
-import ExerciciosUseState2 from "./exercicios/Exercicios04useState2/ExerciciosUseState2";
+import ExerciciosUseState3 from "./exercicios/Exercicios06useState3/ExerciciosUseState3";
 function App() {
   return (
     <>
-      <ExerciciosUseState2 />
+      <ExerciciosUseState3 />
     </>
   );
 }
