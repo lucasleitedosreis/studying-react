@@ -1,10 +1,9 @@
 import React from "react";
-import { ExerciciosUseState } from "./exercicios/Exercicios04useState/ExerciciosUseState";
-
+import ExerciciosUseState2 from "./exercicios/Exercicios04useState2/ExerciciosUseState2";
 function App() {
   return (
     <>
-      <ExerciciosUseState />
+      <ExerciciosUseState2 />
     </>
   );
 }
