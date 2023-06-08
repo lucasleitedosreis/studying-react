@@ -1,9 +1,10 @@
 import React from "react";
-import ExerciciosUseState3 from "./exercicios/Exercicios06useState3/ExerciciosUseState3";
+import ExerciciosUseEffect2 from "./exercicios/Exercicios07UseEffect/ExerciciosUseEffect2";
+
 function App() {
   return (
     <>
-      <ExerciciosUseState3 />
+      <ExerciciosUseEffect2 />
     </>
   );
 }
