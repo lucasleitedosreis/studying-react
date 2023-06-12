@@ -1,10 +1,10 @@
 import React from "react";
-import ExercicioFinal from "./exercicios/Exercicios07UseEffect/ExercicioFinal/ExercicioFinal";
+import ExerciciosUseRef from "./exercicios/Exercicios08UseRef/ExerciciosUseRef";
 
 function App() {
   return (
     <>
-      <ExercicioFinal />
+      <ExerciciosUseRef />
     </>
   );
 }
