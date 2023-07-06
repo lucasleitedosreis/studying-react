@@ -1,10 +1,13 @@
 import React from "react";
-import ExerciciosUseRef from "./exercicios/Exercicios08UseRef/ExerciciosUseRef";
+import { GlobalStorage } from "./exercicios/Exercicios09createContext/Exercicios/GlobalContext";
+import Produto from "./exercicios/Exercicios09createContext/Exercicios/Produto";
 
 function App() {
   return (
     <>
-      <ExerciciosUseRef />
+      <GlobalStorage>
+        <Produto />
+      </GlobalStorage>
     </>
   );
 }
