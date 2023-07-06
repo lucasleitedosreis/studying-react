@@ -1,13 +1,10 @@
 import React from "react";
-import { GlobalStorage } from "./exercicios/Exercicios09createContext/Exercicios/GlobalContext";
-import Produto from "./exercicios/Exercicios09createContext/Exercicios/Produto";
+import Produto from "./exercicios/Exercicios10CustomHooks/hooks/useFetch/Produto";
 
 function App() {
   return (
     <>
-      <GlobalStorage>
-        <Produto />
-      </GlobalStorage>
+      <Produto />
     </>
   );
 }
